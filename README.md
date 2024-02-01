@@ -9,7 +9,7 @@
 
 Full Stack MERN web application where user can login and compete with others by playing games and achieving high scores.
 
-## Deployed link! => [WebArcade](https://webarcade.onrender.com/)
+## Deployment link! => [WebArcade](https://webarcade.onrender.com/)
 
 # Contents
 - [Installation](#installation)
