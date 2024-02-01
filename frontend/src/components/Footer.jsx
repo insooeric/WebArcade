@@ -1,6 +1,7 @@
 import profileImg from "../img/cat-profile.jpg";
 import githubImg from "../img/github.png";
 import linkedInImg from "../img/linkedIn.png";
+import mokokoImg from "../img/personal_website.png";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
@@ -22,8 +23,23 @@ const Footer = () => {
             </div>
             <div className="email-field">insooeric.son@gmail.com</div>
             <div className="links-field">
-              <img src={githubImg} />
-              <img src={linkedInImg} />
+              <a
+                href="https://github.com/insooeric/WebArcade"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={githubImg} />
+              </a>
+              <a
+                href="https://insooeric.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={mokokoImg} />
+              </a>
+              <a href="/404" target="_blank" rel="noreferrer">
+                <img src={linkedInImg} />
+              </a>
             </div>
           </div>
           <div className="content-boundary">
