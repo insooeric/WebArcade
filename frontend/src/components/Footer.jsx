@@ -37,7 +37,11 @@ const Footer = () => {
               >
                 <img src={mokokoImg} />
               </a>
-              <a href="/404" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/eric-son-6742b7173/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={linkedInImg} />
               </a>
             </div>
